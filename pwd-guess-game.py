@@ -41,6 +41,7 @@ def main():
             time.sleep(1)
         print("Go!")
         while True:
+            print()
             username = input("User: ")
             pwd = getpass.getpass()
             credentials = username + ":" + pwd
